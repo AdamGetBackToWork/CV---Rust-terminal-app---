@@ -1,0 +1,16 @@
+{
+  "Experiences": [
+    {
+      "Position": "Engineering Intern",
+      "Company": "NetWorks!",
+      "Location": "Warsaw",
+      "Duration": "July 2023 - October 2023",
+      "Description": [
+        "Support in the verification of hardware configuration dictionaries, SQL database management",
+        "Support in the ION-light project (omptimizing radio-telecommunications network), developing algorithms, SQL Database management, PowerBI reports",
+        "Testing of applications for new versions of Netis - internal app",
+        "Participation in the development of an algorithm improving network quality based on alarms from radio links and base stations."
+      ]
+    }
+  ]
+}
