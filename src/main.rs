@@ -14,7 +14,7 @@ fn main() {
     println!("");
     println!("Hello fellow traveller! I'm {}, a fellow student at Warsaw Univeristy of Technology, seeking, discovering and learning new technologies","Adam Szajgin".bold().bright_yellow());
 
-    let options = vec!["About","Experience","Skills","Contact","Exit"];
+    let options = vec!["About","Experience","Skillset","Contact","Exit"];
 
     loop{
         let choice = Select::new("What would you like to know?", options.clone()).prompt();
@@ -23,13 +23,13 @@ fn main() {
             Ok(choice) => {
                 if choice == options[0] {
                     println!("");
-                    println!("I am a proficient and driven {} with extensive experience in emerging technologies.","full-stack developer".bold().bright_yellow());
-                    println!("I possess diverse technical skills, including proficiency in programming languages such as {}.","C++, Python, JavaScript, Solidity, Rust, and more".bold().bright_yellow());
-                    println!("With practical knowledge in {} I have the capacity to tackle complex projects in the tech industry.","blockchain, web3, and machine learning.".bold().bright_yellow());
+                    println!("Boi did you choose a hard one... *About me*?! What am I supposed to say...  ");
+                    println!("Anyway, I am the most driven folk you will ever meet, I am passionate about everything science-related, and always seeking knowledge.");
+                    println!("In terms of *How am I at use to you?* Well, I know how to do plenty of stuff, e.g. {}","C/C++ development, Python @ AI/ML, SQL and so much more!".bold().bright_green());
+                    println!("But not only that, i also know how to talk to people, and I mean REALLY..., I've worked with people for 3 years at project management as a PM and coordinator");
+                    println!("So not only do I know how to write a bit of code, but also I'm a pleasure to work with and can lead the team to greatness!");
                     println!("");
-                    println!("I have honed my technical skills through {} at multiple companies, and {} and am excited to continue building my skills and contributing to {} in the tech industry.","internships".bold().bright_yellow(),"online courses".bold().bright_yellow(),"innovative projects".bold().bright_yellow());
-                    println!("Along with my technical expertise, I possess strong soft skills such as {}. I am a team player and enjoy collaborating with others to achieve common goals.","communication, critical thinking, and problem-solving".bold().bright_yellow());
-                    println!("Furthermore, I have demonstrated natural leadership skills through various group projects.");
+                    println!("Even though i like talking to people i hate talking about myself, well in this case write...");
                     println!("");
                 }
                 else if choice == options[1] {
@@ -54,11 +54,11 @@ fn main() {
                     show_contact();
                 }
                 else if choice == options[4] {
-                    println!("Bye! Have a great day!");
+                    println!("Cy@! Hope you enjoyed the ride!");
                     break;
                 }
             },
-            Err(_) => println!("You did not select a valid option"),
+            Err(_) => println!("Not a valid option selected"),
         }
     }
 }
