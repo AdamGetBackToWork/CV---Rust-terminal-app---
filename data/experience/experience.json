@@ -12,5 +12,17 @@
         "Participation in the development of an algorithm improving network quality based on alarms from radio links and base stations."
       ]
     }
+    {
+      "Position": "Electronic and Software Engineer",
+      "Company": "Robotics Science Club (KNR)",
+      "Location": "Warsaw - Warsaw Univeristy of Technology",
+      "Duration": "July 2023 - October 2023",
+      "Description": [
+        "Desiginig and making electronic systems for our Marsian Rover",
+        "Programming embedded systems in C/C++",
+        "Linux, BASH, GIT",
+        "Desiginig and developing our Science Club website: https://knr.edu.pl/"
+      ]
+    }
   ]
 }
